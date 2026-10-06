@@ -1,0 +1,131 @@
+{
+  "name": "Ege Akgün",
+  "email": "egekgn@berkeley.edu",
+  "github": "https://github.com/egeakgun",
+  "linkedin": "https://www.linkedin.com/in/ege-akgun-973630211/",
+  "intro": "Applied Mathematics & Computer Science at UC Berkeley.",
+  "interests": "Mathematical reasoning, machine learning, and cryptography.",
+  "projects": [
+    {
+      "slug": "frontier-mathematics",
+      "number": "01",
+      "title": "Evaluating frontier mathematics",
+      "organization": "Mercor",
+      "period": "2025 — 2026",
+      "category": "AI evaluation · Leadership",
+      "role": "Team Lead, Frontier Mathematics; AI Mathematics Expert",
+      "summary": "Evaluation standards, proof adjudication, and leadership of a 190-person team of IMO medalists.",
+      "stat": "190",
+      "statLabel": "team members",
+      "secondStat": "8",
+      "secondLabel": "direct reports",
+      "contribution": [
+        "Led a 190-person team composed entirely of IMO medalists and managed 8 direct reports on a multimillion-dollar frontier AI mathematics research project for leading frontier AI labs.",
+        "Architected evaluation standards for novel, frontier-level mathematics problems and served as the lead arbiter for ambiguous proofs and model-generated reasoning."
+      ],
+      "challengeTitle": "The challenge: evaluating ambiguous proofs",
+      "challenge": "The work required adjudicating ambiguous proofs and model-generated reasoning while enforcing research-grade correctness.",
+      "outcome": "Evaluation standards and proof adjudication for a frontier AI mathematics research project, alongside the coordination of a large specialist team.",
+      "scope": "Mercor: August 2025–July 2026. Team Lead, Frontier Mathematics: August 2025–March 2026.",
+      "links": []
+    },
+    {
+      "slug": "crypto-portfolio-ml",
+      "number": "02",
+      "title": "Leakage-controlled portfolio research",
+      "organization": "Independent project",
+      "period": "2026",
+      "category": "Software · Quantitative research",
+      "role": "Independent researcher & developer",
+      "summary": "An eight-asset forecasting and backtesting framework with chronological validation and transaction costs.",
+      "stat": "8",
+      "statLabel": "crypto assets",
+      "secondStat": "1,461",
+      "secondLabel": "daily observations",
+      "contribution": [
+        "Built a leakage-controlled cryptocurrency forecasting and backtesting framework across eight assets using PyTorch LSTMs, logistic regression, and constrained mean-variance optimization.",
+        "Evaluated strategies out of sample under transaction costs using Sharpe, Sortino, Calmar, and drawdown metrics."
+      ],
+      "challengeTitle": "The challenge: keeping the test genuinely out of sample",
+      "challenge": "Chronological train, validation, and test splits separate fitting from model selection and final evaluation. Scalers are fitted on training observations; hyperparameters and decision thresholds are selected on validation data. Position changes incur fees and slippage.",
+      "outcome": "In the reference test, the LSTM had a smaller maximum drawdown than BTC buy-and-hold, but lower return and Sharpe. This is one test regime; it does not establish consistent outperformance.",
+      "scope": "Reference test: August 2024–July 2025. One-way fees plus slippage: 15 basis points. Dataset downloaded September 3, 2026.",
+      "results": [
+        {"strategy": "BTC buy-and-hold", "return": "76.8%", "sharpe": "1.32", "drawdown": "−28.1%"},
+        {"strategy": "LSTM", "return": "37.5%", "sharpe": "1.23", "drawdown": "−12.2%"},
+        {"strategy": "Ensemble", "return": "31.6%", "sharpe": "1.02", "drawdown": "−13.0%"},
+        {"strategy": "Logistic regression", "return": "−4.8%", "sharpe": "−0.78", "drawdown": "−11.5%"}
+      ],
+      "limitations": "Daily close-to-close data and a single market regime limit the conclusions. Short borrow costs, market impact, funding rates, and tax effects are not modeled. Eight assets introduce universe-selection risk.",
+      "links": [{"label": "Code & research notes", "url": "https://github.com/egeakgun/crypto-portfolio-ml"}]
+    },
+    {
+      "slug": "encrypted-computation",
+      "number": "03",
+      "title": "Computing on encrypted data",
+      "organization": "TÜBİTAK BİLGEM",
+      "period": "2022 — 2025",
+      "category": "Cryptography · Research prototype",
+      "role": "Cryptography Research Intern",
+      "summary": "A Legendre-symbol-based partially homomorphic encryption prototype in Python and SageMath.",
+      "stat": "3",
+      "statLabel": "years of research internship",
+      "secondStat": "14",
+      "secondLabel": "age at selection",
+      "contribution": [
+        "Designed and prototyped a Legendre-symbol-based partially homomorphic encryption scheme in Python/SageMath for computation on encrypted healthcare data.",
+        "Selected at age 14 as one of three high-school researchers; studied graduate-level cryptography and worked with senior cryptographers during a three-year internship."
+      ],
+      "challengeTitle": "The research problem: computation on encrypted data",
+      "challenge": "The project explored a partially homomorphic encryption scheme for computation on encrypted healthcare data, connecting mathematical cryptography with a working prototype.",
+      "outcome": "A Python/SageMath research prototype.",
+      "scope": "National Research Institute of Electronics and Cryptology, Kocaeli, Türkiye. September 2022–June 2025.",
+      "links": []
+    },
+    {
+      "slug": "leva-math-camp",
+      "number": "04",
+      "title": "Building a mathematics community",
+      "organization": "National Leva Math Camp",
+      "period": "2023 — 2025",
+      "category": "Education · Organization building",
+      "role": "Co-Organizer & Lecturer",
+      "summary": "Co-organizing a national olympiad mathematics program, selecting students, and teaching advanced mathematics.",
+      "stat": "200+",
+      "statLabel": "students trained by the program",
+      "secondStat": "50+",
+      "secondLabel": "advanced lectures delivered",
+      "contribution": [
+        "Co-led a highly selective national olympiad mathematics program, delivering 50+ advanced lectures and selecting and training 200+ students from 5,000+ applicants—an approximately 4% selection rate."
+      ],
+      "challengeTitle": "The work: selection and advanced instruction",
+      "challenge": "The role combined co-organizing the program, selecting students from a national applicant pool, and delivering advanced olympiad mathematics lectures.",
+      "outcome": "The program selected and trained more than 200 students from over 5,000 applicants. My contribution included co-organization and more than 50 advanced lectures.",
+      "scope": "Türkiye, 2023–2025. Program-level student and applicant counts; shared organizing responsibility.",
+      "links": []
+    },
+    {
+      "slug": "four-color-research",
+      "number": "05",
+      "title": "Reinforcement learning & the Four Color Theorem",
+      "organization": "UC Berkeley",
+      "period": "2026 — Present",
+      "category": "Ongoing research · Mathematics",
+      "role": "Undergraduate Researcher",
+      "summary": "Investigating a two-player game formulation of D-reducibility and simpler proof certificates.",
+      "stat": "RL",
+      "statLabel": "reinforcement learning",
+      "secondStat": "Ongoing",
+      "secondLabel": "research stage",
+      "contribution": [
+        "Conducting research under Prof. Olga Holtz, working with Marco David and Dan Romik on reinforcement learning for the Four Color Theorem.",
+        "Investigating a two-player game formulation of D-reducibility to uncover structure in computer-assisted proofs and explore simpler proof certificates using machine learning."
+      ],
+      "challengeTitle": "The research question",
+      "challenge": "Can a two-player game formulation of D-reducibility help uncover structure in computer-assisted proofs and support simpler proof certificates?",
+      "outcome": "Ongoing research, started September 2026.",
+      "scope": "UC Berkeley. Research in progress; this page describes the question being investigated.",
+      "links": []
+    }
+  ]
+}
