@@ -9,7 +9,7 @@
     {
       "slug": "frontier-mathematics",
       "number": "01",
-      "title": "Evaluating frontier mathematics",
+      "title": "Mathematical reasoning & AI evaluation",
       "organization": "Mercor",
       "period": "2025 — 2026",
       "category": "AI evaluation · Leadership",
@@ -20,19 +20,20 @@
       "secondStat": "8",
       "secondLabel": "direct reports",
       "contribution": [
-        "Led a 190-person team composed entirely of IMO medalists and managed 8 direct reports on a multimillion-dollar frontier AI mathematics research project for leading frontier AI labs.",
-        "Architected evaluation standards for novel, frontier-level mathematics problems and served as the lead arbiter for ambiguous proofs and model-generated reasoning."
+        "I led a 190-person team of IMO medalists, with 8 direct reports, on a multimillion-dollar frontier AI mathematics research project for leading AI labs.",
+        "I developed evaluation standards for novel, frontier-level mathematics problems and served as the lead reviewer for ambiguous proofs and model-generated reasoning."
       ],
-      "challengeTitle": "The challenge: evaluating ambiguous proofs",
-      "challenge": "The work required adjudicating ambiguous proofs and model-generated reasoning while enforcing research-grade correctness.",
-      "outcome": "Evaluation standards and proof adjudication for a frontier AI mathematics research project, alongside the coordination of a large specialist team.",
+      "challengeTitle": "Checking ambiguous proofs",
+      "challenge": "The work involved deciding whether ambiguous proofs and model-generated arguments were mathematically sound. The evaluation standards had to support research-grade correctness.",
+      "outcome": "My contributions were the evaluation standards, proof adjudication, and coordination of a large specialist team.",
       "scope": "Mercor: August 2025–July 2026. Team Lead, Frontier Mathematics: August 2025–March 2026.",
-      "links": []
+      "links": [],
+      "home_summary": "I led a 190-person team of IMO medalists, with 8 direct reports. I developed evaluation standards and reviewed ambiguous proofs and model-generated reasoning for mathematical correctness."
     },
     {
       "slug": "crypto-portfolio-ml",
       "number": "02",
-      "title": "Leakage-controlled portfolio research",
+      "title": "Crypto forecasting & backtesting",
       "organization": "Independent project",
       "period": "2026",
       "category": "Software · Quantitative research",
@@ -43,21 +44,47 @@
       "secondStat": "1,461",
       "secondLabel": "daily observations",
       "contribution": [
-        "Built a leakage-controlled cryptocurrency forecasting and backtesting framework across eight assets using PyTorch LSTMs, logistic regression, and constrained mean-variance optimization.",
-        "Evaluated strategies out of sample under transaction costs using Sharpe, Sortino, Calmar, and drawdown metrics."
+        "I built a cryptocurrency forecasting and backtesting framework across eight assets, using PyTorch LSTMs, logistic regression, and constrained mean-variance optimization.",
+        "I separated training, validation, and testing chronologically and evaluated strategies out of sample after transaction costs. The reports include Sharpe, Sortino, Calmar, and drawdown metrics."
       ],
-      "challengeTitle": "The challenge: keeping the test genuinely out of sample",
-      "challenge": "Chronological train, validation, and test splits separate fitting from model selection and final evaluation. Scalers are fitted on training observations; hyperparameters and decision thresholds are selected on validation data. Position changes incur fees and slippage.",
+      "challengeTitle": "Keeping the test out of sample",
+      "challenge": "I used chronological splits to separate fitting, model selection, and final evaluation. Scalers are fitted on training observations. Hyperparameters and decision thresholds are chosen on validation data. Position changes incur fees and slippage.",
       "outcome": "In the reference test, the LSTM had a smaller maximum drawdown than BTC buy-and-hold, but lower return and Sharpe. This is one test regime; it does not establish consistent outperformance.",
-      "scope": "Reference test: August 2024–July 2025. One-way fees plus slippage: 15 basis points. Dataset downloaded September 3, 2026.",
+      "scope": "Dataset: 1,461 daily observations, downloaded September 3, 2026. Reference test: August 2024–July 2025. One-way fees plus slippage: 15 basis points.",
       "results": [
-        {"strategy": "BTC buy-and-hold", "return": "76.8%", "sharpe": "1.32", "drawdown": "−28.1%"},
-        {"strategy": "LSTM", "return": "37.5%", "sharpe": "1.23", "drawdown": "−12.2%"},
-        {"strategy": "Ensemble", "return": "31.6%", "sharpe": "1.02", "drawdown": "−13.0%"},
-        {"strategy": "Logistic regression", "return": "−4.8%", "sharpe": "−0.78", "drawdown": "−11.5%"}
+        {
+          "strategy": "BTC buy-and-hold",
+          "return": "76.8%",
+          "sharpe": "1.32",
+          "drawdown": "−28.1%"
+        },
+        {
+          "strategy": "LSTM",
+          "return": "37.5%",
+          "sharpe": "1.23",
+          "drawdown": "−12.2%"
+        },
+        {
+          "strategy": "Ensemble",
+          "return": "31.6%",
+          "sharpe": "1.02",
+          "drawdown": "−13.0%"
+        },
+        {
+          "strategy": "Logistic regression",
+          "return": "−4.8%",
+          "sharpe": "−0.78",
+          "drawdown": "−11.5%"
+        }
       ],
       "limitations": "Daily close-to-close data and a single market regime limit the conclusions. Short borrow costs, market impact, funding rates, and tax effects are not modeled. Eight assets introduce universe-selection risk.",
-      "links": [{"label": "Code & research notes", "url": "https://github.com/egeakgun/crypto-portfolio-ml"}]
+      "links": [
+        {
+          "label": "Code & research notes",
+          "url": "https://github.com/egeakgun/crypto-portfolio-ml"
+        }
+      ],
+      "home_summary": "I built an eight-asset research framework with LSTMs, logistic regression, portfolio optimization, and transaction costs. The reference test reduced drawdown with the LSTM, but did not beat Bitcoin buy-and-hold on return or Sharpe."
     },
     {
       "slug": "encrypted-computation",
@@ -73,19 +100,20 @@
       "secondStat": "14",
       "secondLabel": "age at selection",
       "contribution": [
-        "Designed and prototyped a Legendre-symbol-based partially homomorphic encryption scheme in Python/SageMath for computation on encrypted healthcare data.",
-        "Selected at age 14 as one of three high-school researchers; studied graduate-level cryptography and worked with senior cryptographers during a three-year internship."
+        "I designed and prototyped a Legendre-symbol-based partially homomorphic encryption scheme in Python and SageMath for computation on encrypted healthcare data.",
+        "I joined at 14 as one of three selected high-school researchers. During the three-year internship, I studied graduate-level cryptography and worked with senior cryptographers."
       ],
-      "challengeTitle": "The research problem: computation on encrypted data",
-      "challenge": "The project explored a partially homomorphic encryption scheme for computation on encrypted healthcare data, connecting mathematical cryptography with a working prototype.",
-      "outcome": "A Python/SageMath research prototype.",
+      "challengeTitle": "From a cryptographic idea to a prototype",
+      "challenge": "The research question was how to support computation on encrypted healthcare data with a partially homomorphic encryption scheme. My work connected the mathematical construction to a working prototype.",
+      "outcome": "I built a research prototype in Python and SageMath.",
       "scope": "National Research Institute of Electronics and Cryptology, Kocaeli, Türkiye. September 2022–June 2025.",
-      "links": []
+      "links": [],
+      "home_summary": "I designed and prototyped a Legendre-symbol-based partially homomorphic encryption scheme in Python and SageMath, for computation on encrypted healthcare data."
     },
     {
       "slug": "leva-math-camp",
       "number": "04",
-      "title": "Building a mathematics community",
+      "title": "Leva Math Camp",
       "organization": "National Leva Math Camp",
       "period": "2023 — 2025",
       "category": "Education · Organization building",
@@ -96,13 +124,14 @@
       "secondStat": "50+",
       "secondLabel": "advanced lectures delivered",
       "contribution": [
-        "Co-led a highly selective national olympiad mathematics program, delivering 50+ advanced lectures and selecting and training 200+ students from 5,000+ applicants—an approximately 4% selection rate."
+        "I co-led a national olympiad mathematics program, helped select students, and delivered more than 50 advanced lectures. The program selected and trained over 200 students from more than 5,000 applicants, an approximately 4% selection rate."
       ],
-      "challengeTitle": "The work: selection and advanced instruction",
-      "challenge": "The role combined co-organizing the program, selecting students from a national applicant pool, and delivering advanced olympiad mathematics lectures.",
-      "outcome": "The program selected and trained more than 200 students from over 5,000 applicants. My contribution included co-organization and more than 50 advanced lectures.",
+      "challengeTitle": "Organizing and teaching",
+      "challenge": "My role combined co-organizing the program, selecting students from a national applicant pool, and teaching advanced olympiad mathematics.",
+      "outcome": "Our program selected and trained more than 200 students. I shared the organizing responsibility and delivered more than 50 advanced lectures.",
       "scope": "Türkiye, 2023–2025. Program-level student and applicant counts; shared organizing responsibility.",
-      "links": []
+      "links": [],
+      "home_summary": "I co-organized a national olympiad math program and gave 50+ advanced lectures. Together, we selected and trained 200+ students from 5,000+ applicants."
     },
     {
       "slug": "four-color-research",
@@ -118,14 +147,22 @@
       "secondStat": "Ongoing",
       "secondLabel": "research stage",
       "contribution": [
-        "Conducting research under Prof. Olga Holtz, working with Marco David and Dan Romik on reinforcement learning for the Four Color Theorem.",
-        "Investigating a two-player game formulation of D-reducibility to uncover structure in computer-assisted proofs and explore simpler proof certificates using machine learning."
+        "I'm doing research under Prof. Olga Holtz, working with Marco David and Dan Romik on reinforcement learning for the Four Color Theorem.",
+        "I'm investigating a two-player game formulation of D-reducibility to understand the structure of computer-assisted proofs and explore simpler proof certificates using machine learning."
       ],
-      "challengeTitle": "The research question",
+      "challengeTitle": "The question",
       "challenge": "Can a two-player game formulation of D-reducibility help uncover structure in computer-assisted proofs and support simpler proof certificates?",
-      "outcome": "Ongoing research, started September 2026.",
+      "outcome": "This work is ongoing. I started in September 2026.",
       "scope": "UC Berkeley. Research in progress; this page describes the question being investigated.",
-      "links": []
+      "links": [],
+      "home_summary": "I'm investigating a two-player game formulation of D-reducibility and the possibility of simpler proof certificates, under Prof. Olga Holtz and working with Marco David and Dan Romik. This is ongoing research."
     }
-  ]
+  ],
+  "home": {
+    "opening": "Hi! I'm Ege, an undergrad studying Applied Mathematics and Computer Science at UC Berkeley. I'm particularly interested in AI for math, reasoning, and evaluating coding agents.",
+    "current": "I'm working on reinforcement learning and graph coloring with Prof. Olga Holtz at Berkeley. Previously, I worked on mathematical AI evaluation at Mercor and cryptography at TÜBİTAK BİLGEM.",
+    "personal": "Outside of that, I'm into table tennis, drumming, and working out. I'd love to meet others working on similar topics, discuss research ideas, or work on something together.",
+    "research_intro": "My work has involved checking mathematical reasoning, computing on encrypted data, and using machine learning to study proofs.",
+    "projects_intro": "Some things I've built and helped organize."
+  }
 }

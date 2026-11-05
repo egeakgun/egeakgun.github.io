@@ -1,10 +1,10 @@
 # Ege Akgün — personal portfolio
 
-A static portfolio covering mathematics, AI evaluation, cryptography, quantitative research, and education. Charcoal backgrounds, orange accents, and locally hosted Outfit and Inter fonts. No build dependencies or paid services.
+A static personal homepage covering mathematics, AI evaluation, cryptography, quantitative research, and education. A white background, system serif typography, and muted burgundy links keep the focus on the writing. No build dependencies, external font requests, or paid services.
 
 ## Edit and preview
 
-Edit project information in `content/site.json`, then run `python3 generate.py`. The generated website and its assets live in `docs/`. Edit `docs/style.css` to change the visual design. Font licenses are included in `docs/fonts/`.
+Edit the introduction and project information in `content/site.json`, then run `python3 generate.py`. The generated website and its assets live in `docs/`. Edit `docs/style.css` to change the visual design. The homepage links to five detailed work pages; existing project URLs are preserved.
 
 Run `python3 -m http.server 4173 --bind 127.0.0.1 --directory docs` for a local preview.
 
